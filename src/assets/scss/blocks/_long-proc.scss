@@ -1,0 +1,66 @@
+.long-proc {
+  padding: 90px 0 60px 0;
+  &__subtitle {
+    margin-bottom: 50px;
+    max-width: 660px;
+  }
+  &-item {
+    position: relative;
+    padding: 40px 0 60px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 1px 21px 0px rgba(180, 20, 42, 0.32);
+
+    &--cancel {
+      background-color: #fff1f3;
+      border: 1px solid #b4142a;
+      .long-proc-item__point {
+        &::before {
+          background: url("../img/bancrot/cancel--small.png") center
+            center/cover no-repeat;
+        }
+      }
+    }
+    &--ok {
+      background-color: #edfff0;
+      border: 1px solid #3bbf53;
+      .long-proc-item__point {
+        &::before {
+          background: url("../img/bancrot/ok--small.png") center center/cover
+            no-repeat;
+        }
+      }
+    }
+    &__title {
+      margin: 0 0 50px 0;
+      font-size: 26px;
+      color: rgb(28, 28, 28);
+      line-height: normal;
+      text-transform: uppercase;
+      &--cancel {
+        max-width: 400px;
+      }
+    }
+    &__point {
+      display: flex;
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: rgb(28, 28, 28);
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:before {
+        margin-right: 20px;
+        content: "";
+        display: block;
+        min-width: 30px;
+        height: 30px;
+      }
+    }
+    &__img {
+      right: -73px;
+      top: 59px;
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.dogovor {
+  padding: 50px 0;
+  background: #cccbc8 url("../img/dogovor.png");
+  background-repeat: no-repeat;
+  &__title {
+    font-size: 27px;
+    color: rgb(28, 28, 28);
+  }
+  &__line {
+    margin-bottom: 18px;
+  }
+  &__desc {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(28, 28, 28);
+    line-height: normal;
+  }
+  &-list {
+    margin-bottom: 50px;
+    &__item {
+      margin-bottom: 19px;
+      display: flex;
+      font-size: 16px;
+      color: rgb(28, 28, 28);
+      line-height: normal;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:before {
+        margin-top: 3px;
+        margin-right: 10px;
+        content: "";
+        display: block;
+        border-radius: 50%;
+        background-color: rgb(180, 20, 41);
+        min-width: 8px;
+        height: 8px;
+      }
+    }
+  }
+  &__btn {
+    font-weight: 600;
+  }
+}

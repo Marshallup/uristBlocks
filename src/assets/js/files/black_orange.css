@@ -1,0 +1,537 @@
+/**************************** DEFAULT STYLES ********************/
+
+a,
+a:focus {
+    color: #b41429;
+}
+
+/**************************** /DEFAULT STYLES *******************/
+/**************************** LOADER ****************************/
+
+.loader {
+	border-top-color: #b41429;
+}
+
+.loader::before {
+	border-top-color: #b41429;
+}
+
+.loader::after {
+	border-top-color: #fff;
+}
+
+.loader_wrp .loader_section {
+	background-color: #141312;
+}
+
+/**************************** /LOADER ***************************/
+/**************************** MOBILE MENU ***********************/
+
+.mm_block {
+	background-color: #23201c;
+}
+
+.burger.active .bar,
+.burger:hover .bar,
+.main_page .is-sticky .burger:hover .bar {
+	background-color: #b41429;
+}
+
+.slicknav_nav li a:hover {
+	color: #b41429;
+}
+
+/**************************** /MOBILE MENU **********************/
+/**************************** POPUP *****************************/
+
+.popup_form input[type='submit'] {
+	background: #b41429;
+}
+
+.popup_form input[type='submit']:hover {
+	background: #028ba8;
+}
+
+/**************************** /POPUP ****************************/
+/**************************** MAIN SLIDER ***********************/
+
+.main_slider .slide {
+	background-color: #0a0d08;
+}
+
+.main_slider .owl-nav > div {
+    background-color: rgba(180, 20, 41, .5);
+}
+
+.main_slider .owl-nav > div:hover {
+	background-color: rgba(180, 20, 41, 1);
+}
+
+.main_slider .slide_content .btn.btn_fill {
+	border-color: #b41429;
+	background-image: -webkit-linear-gradient(left, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+	   background-image: -moz-linear-gradient(left, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+	        background-image: linear-gradient(to right, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#b41429',GradientType=1 );
+	color: #fff;
+}
+
+.ie .main_slider .slide_content .btn.btn_fill {
+	-webkit-box-shadow: inset 0 0 0 2px #b41429;
+			box-shadow: inset 0 0 0 2px #b41429;
+}
+
+/**************************** /MAIN SLIDER **********************/
+/**************************** HEADER ****************************/
+
+.top_line {
+	background-color: #f0f2ef;
+}
+
+.top_contacts li {
+	color: #666;
+}
+
+ 
+
+.top_contacts li {
+	border-right-color: rgba(204, 206, 203, .25);
+}
+
+.top_contacts li .zmdi { color: #b41429; }
+
+
+
+.top_contacts a,
+.top_contacts a:focus {
+	color: #666;
+}
+
+.top_contacts a:hover {
+	color: #b41429;
+}
+
+.main_nav_menu > li:hover > a {
+	color: #b41429;
+}
+
+.main_page .is-sticky .main_nav_menu > li:hover > a,
+.inside_page .main_nav_menu > li:hover > a {
+	color: #b41429;
+}
+
+.main_nav_menu .sub_menu {
+	background-color: #222;
+}
+
+.main_nav_menu .sub_menu .sub_menu {
+	background-color: #222;
+}
+
+.btn {
+	border-color: #b41429;
+	background-image: -webkit-linear-gradient(left, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+		   background-image: -moz-linear-gradient(left, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+		        background-image: linear-gradient(to right, rgba(180, 20, 41, 0) 50%, rgba(180, 20, 41, 1) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#b41429',GradientType=1 );
+}
+
+.ie .btn {
+	-webkit-box-shadow: inset 0 0 0 2px #b41429;
+			box-shadow: inset 0 0 0 2px #b41429;
+}
+
+.btn.btn_empty,
+.btn.btn_fill:hover {
+	color: #b41429;
+}
+
+.main_page .middle_line .navbar .is-sticky .get_quote .btn:hover,
+.inside_page .middle_line .navbar .get_quote .btn:hover {
+	color: #b41429;
+}
+
+/**************************** /HEADER ***************************/
+/**************************** BLOCK PROMO ***********************/
+
+.block_promo {
+	background-color: #478102;
+}
+
+/**************************** /BLOCK PROMO **********************/
+/**************************** SECTION ABOUT *********************/
+
+.section_about .content li::before {
+	color: #b41429;
+}
+
+/**************************** /SECTION ABOUT ********************/
+/**************************** SECTION SERVICES ******************/
+
+.services_list .one_service .title a:hover {
+	color: #b41429;
+}
+
+/**************************** /SECTION SERVICES *****************/
+/**************************** SECTION PROJECTS ******************/
+
+.section_projects .section_title {
+	color: #f6f6e3;
+}
+
+.section_projects .one_project .img_wrp {
+	background-color: #b41429;
+}
+
+.section_projects .one_project .btns a:hover::after {
+	color: #b41429;
+}
+
+/**************************** /SECTION PROJECTS *****************/
+/**************************** SECTION ADVANTAGES ****************/
+
+.advantages_list .advantage_wrp::before {
+	color: #b41429;
+}
+
+/**************************** /SECTION ADVANTAGES ***************/
+/**************************** SECTION TEAM **********************/
+
+.team_list .one_team .job,
+.team_list .one_team .social_list .zmdi:hover {
+	color: #b41429;
+}
+
+.team_list .one_team .social_list .zmdi {
+	color: #b41429;
+	-webkit-box-shadow: inset 0 0 0 1px #b41429;
+			box-shadow: inset 0 0 0 1px #b41429;
+}
+
+.team_list .one_team .content {
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(211, 52, 73,1) 50%,rgba(180, 20, 41,1) 100%);
+	   background-image: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(211, 52, 73,1) 50%,rgba(180, 20, 41,1) 100%);
+	        background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(211, 52, 73,1) 50%,rgba(180, 20, 41,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#478102',GradientType=0 );
+}
+
+/**************************** /SECTION TEAM *********************/
+/**************************** SECTION NUMBERS *******************/
+
+.section_numbers {
+	background-color: #f8f8f8;
+}
+
+.section_numbers .section_title,
+.section_numbers .number_wrp .plus {
+	color: #000;
+}
+
+/**************************** /SECTION NUMBERS ******************/
+/**************************** SECTION TESTIMONIALS **************/
+
+.testimonials_list .testimonial_content .rate_list .zmdi {
+	color: #b41429;
+}
+
+/**************************** /SECTION TESTIMONIALS *************/
+/**************************** SECTION FAQ ***********************/
+
+.faq_accordion .question {
+	background-color: rgba(180, 20, 41, 0.5);
+	color: #fff;
+}
+
+.faq_accordion .question:hover,
+.faq_accordion .question.ui-accordion-header-active {
+	background-color: rgba(180, 20, 41, 1);
+}
+
+/**************************** /SECTION FAQ **********************/
+/**************************** SECTION ARTICLES ******************/
+
+.articles_list .title a:hover {
+	color: #b41429;
+}
+
+.articles_list .meta span::before {
+	color: #b41429;
+}
+
+.articles_list .meta a:hover {
+	color: #b41429;
+}
+
+/**************************** /SECTION ARTICLES *****************/
+/**************************** SECTION MARKETING *****************/
+
+.block_marketing {
+	background-color: #f5f5f5;
+}
+
+.block_marketing, .block_marketing p, .block_content b {
+	color: #222;
+}
+
+/**************************** /SECTION MARKETING ****************/
+/**************************** BODY ******************************/
+
+.section_title::after {
+	background-color: #b41429;
+}
+
+.section_carousel .carousel_nav > div {
+	border-color: #b41429;
+	background-color: rgba(180, 20, 41, 0);
+}
+
+.section_carousel .carousel_nav > div:hover {
+	background-color: rgba(180, 20, 41, 1);
+}
+
+.section_carousel .carousel_nav > div::after {
+	color: #b41429;
+}
+
+.page_header {
+	background-color: #222;
+}
+
+.breadcrumbs a {
+	color: #fff;
+}
+
+.cats_list .jq-selectbox li.selected,
+.cats_list .jq-selectbox li:hover {
+    background-color: #b41429;
+}
+
+.pagination_content span.current,
+.pagination_content a:hover {
+	background-color: #b41429;
+}
+
+/**************************** /BODY *****************************/
+/**************************** SIDEBAR ***************************/
+
+.sidebar_services_menu {
+	background: #b41429;
+	background: -webkit-linear-gradient(top, #b41429 0%,#df6f0e 100%);
+	   background: -moz-linear-gradient(top, #b41429 0%, #df6f0e 100%);
+	        background: linear-gradient(to bottom, #b41429 0%,#df6f0e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#df6f0e',GradientType=0 );
+}
+
+.sidebar_services_menu_list a:hover,
+.sidebar_services_menu_list li.current_menu_item a {
+	color: #fff;
+}
+
+.sidebar_projects_menu_list a:hover,
+.sidebar_projects_menu_list li.current_menu_item a {
+	color: #93ce1d;
+}
+
+.sidebar_services_price_btn a:hover {
+	color: #b41429;
+}
+
+.sidebar_projects_menu {
+	background-color: #362c2a;
+}
+
+.sidebar_banner_small,
+.sidebar_banner_big {
+	background-color: #213315;
+}
+
+.sidebar_banner_small .block_content b,
+.sidebar_banner_big .block_content b {
+	color: #b41429;
+}
+
+.sidebar_projects_details_list li::before {
+	color: #b41429;
+}
+
+.sidebar_projects_nav .all .zmdi:hover {
+	-webkit-box-shadow: inset 0 0 0 50px #b41429;
+			box-shadow: inset 0 0 0 50px #b41429;
+}
+
+.sidebar_projects_nav .text_links a:hover {
+	color: #b41429;
+}
+
+.sidebar_search button::after {
+	background-color: #b41429;
+}
+
+.sidebar_search button:hover::after {
+	background-color: #028ba8;
+}
+
+.sidebar_categories .list a:hover {
+	color: #b41429;
+}
+
+.sidebar_popular .article_title a:hover {
+	color: #b41429;
+}
+
+.sidebar_tags .wp-tag-cloud li a:hover {
+	color: #fff;
+	background-color: #b41429;
+}
+
+.sidebar_tags .wp-tag-cloud li a:hover::after {
+	border-color: transparent transparent transparent #b41429;
+}
+
+/**************************** /SIDEBAR **************************/
+/**************************** ONE ARTICLE ***********************/
+
+.article_one .article_meta_primary span::before,
+.article_one .article_meta_secondary span::before {
+	color: #b41429;
+}
+
+.article_one .article_meta_primary a:hover,
+.article_one .article_meta_secondary .meta_wrp a:hover {
+	color: #b41429;
+}
+
+.article_page .similar_posts .title a:hover {
+	color: #b41429;
+}
+
+/**************************** /ONE ARTICLE **********************/
+/**************************** ARTICLE ***************************/
+
+.article_content table th {
+	background-color: #b41429;
+}
+
+.article_content ul li::before,
+.article_content ol li::before {
+	color: #b41429;
+}
+
+.article_content blockquote {
+	border-left-color: #b41429;
+}
+
+.contacts_data .section_title .color {
+	color: #b41429;
+}
+
+.contacts_data .contacts_list li::before {
+	background-color: #222;
+	color: #fff;
+}
+
+.contacts_form_box input[type='submit'] {
+	background: #b41429;
+}
+
+.contacts_form_box input[type='submit']:hover {
+	background: #e06e0d;
+}
+
+/**************************** /ARTICLE **************************/
+/**************************** COMMENTS **************************/
+
+.comment_body .comment_meta a:hover {
+	color: #b41429;
+}
+
+.comment-respond input[type='submit'] {
+	background: #b41429;
+}
+
+.comment-respond input[type='submit']:hover {
+	background: #028ba8;
+}
+
+/**************************** /COMMENTS *************************/
+/**************************** FOOTER ****************************/
+
+.main_footer {
+	background-color: #222;
+}
+
+.main_footer .footer_block .title::after {
+	background-color: #b41429;
+}
+
+.main_footer .footer_menu_list a:hover,
+.main_footer .footer_menu_list .current_menu_item a {
+	color: #b41429;
+}
+
+.main_footer .footer_menu_list a:hover::before,
+.main_footer .footer_menu_list .current_menu_item a::before {
+	color: #b41429;
+}
+
+.main_footer .footer_social .social_list .zmdi,
+.contacts_data .social_list .zmdi {
+	-webkit-box-shadow: inset 0 0 0 1px #b41429;
+			box-shadow: inset 0 0 0 1px #b41429;
+}
+
+.main_footer .footer_social .social_list .zmdi:hover,
+.contacts_data .social_list .zmdi:hover {
+	-webkit-box-shadow: inset 0 0 0 20px #b41429;
+			box-shadow: inset 0 0 0 20px #b41429;
+}
+
+.main_footer .footer_contacts li::before {
+	color: #b41429;
+}
+
+.main_footer .footer_contacts a:hover {
+	color: #b41429;
+}
+
+.to_top::after {
+	background-color: #b41429;
+}
+
+/**************************** /FOOTER ***************************/
+/**************************** RESPONSIVE ************************/
+
+@media (max-width: 991px) {
+
+	.projects_list .one_project .content_wrp {
+		background-color: rgba(180, 20, 41, .85);
+	}
+
+	.team_list .one_team .social_list a .zmdi:hover {
+		color: #b41429;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.main_page .middle_line .navbar .get_quote .btn:hover {
+		color: #b41429;
+	}
+
+}
+
+/**************************** /RESPONSIVE ************************/
+
+.design_footer li { color: #999; }
+
+.design_footer li a { color: #999; }
+
+
+.btn.btn_fill.projectcost { background: #b41429; border-width: 0; border-color: #b41429; color: #111; width: 100%; border-radius: 0; margin-bottom: 0px; }
+
+.ie .btn.btn_fill.projectcost {
+	-webkit-box-shadow: inset 0 0 0 0px #b41429;
+			box-shadow: inset 0 0 0 0px #b41429;
+}
+

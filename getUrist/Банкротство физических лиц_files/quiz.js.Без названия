@@ -1,0 +1,89 @@
+"use strict";
+
+window.addEventListener("DOMContentLoaded", function () {
+  if (document.getElementById("quiz-quests-swap")) {
+    var setQuest = function setQuest(event) {
+      nextTest = false;
+
+      if (event) {
+        for (var i = 0; i < questsCounts.end; i++) {
+          if (i === questsCounts.start) {
+            var inputsRadio = questsChilds[i].querySelectorAll(
+              ".quiz-bankrupt-form-test-inputs-questions-item__radio"
+            );
+            var inputsCheck = questsChilds[i].querySelectorAll(
+              ".quiz-bankrupt-form-test-inputs-questions-item__check"
+            );
+
+            for (var j = 0; j < inputsRadio.length; j++) {
+              if (inputsRadio[j].checked === true) {
+                questsCounts.start++;
+                nextTest = true;
+              }
+
+              if (!nextTest) {
+                inputsCheck[j].classList.add(
+                  "quiz-bankrupt-form-test-inputs-questions-item__check--error"
+                );
+              }
+            }
+          }
+
+          questsChilds[i].classList.add(
+            "quiz-bankrupt-form-test-questions-swap--show"
+          );
+
+          if (
+            i !== questsCounts.start &&
+            questsChilds[i].nodeName !== "BUTTON"
+          ) {
+            questsChilds[i].classList.remove(
+              "quiz-bankrupt-form-test-questions-swap--show"
+            );
+          }
+        }
+      } else {
+        for (var _i = 0; _i < questsCounts.end; _i++) {
+          questsChilds[_i].classList.add(
+            "quiz-bankrupt-form-test-questions-swap--show"
+          );
+
+          if (
+            _i !== questsCounts.start &&
+            questsChilds[_i].nodeName !== "BUTTON"
+          ) {
+            questsChilds[_i].classList.remove(
+              "quiz-bankrupt-form-test-questions-swap--show"
+            );
+          }
+        }
+      }
+
+      if (questsCounts.start === questsCounts.end) {
+        questsSwap.style.display = "none";
+        questsSwap.parentElement.appendChild(quizContact);
+      }
+    };
+
+    var questsSwap = document.getElementById("quiz-quests-swap");
+    var questsNext = document.getElementById("quiz-quests-swap-next");
+    var quizContact = document.getElementById("quiz-contact-form");
+    var questsChilds = questsSwap.children;
+    var questsCounts = {
+      start: 0,
+      end: questsChilds.length - 1,
+    };
+    var nextTest;
+    quizContact.parentElement.removeChild(quizContact);
+    setQuest();
+
+    questsNext.onclick = function (event) {
+      if (questsCounts.start === questsCounts.end) {
+        return;
+      } else {
+        event.preventDefault();
+        setQuest(event);
+      }
+    };
+  }
+});

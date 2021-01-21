@@ -1,0 +1,266 @@
+/* ================================================== Стили для кнопки взятые с сайта */
+.btn {
+  display: block;
+  width: 263px;
+  margin-top: 30px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  border-color: #b41429;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  background-image: linear-gradient(
+    to right,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#b41429',GradientType=1 );
+}
+.btn.btn_fill,
+.btn.btn_empty:hover {
+  color: #fff;
+  background-position: top right;
+}
+.btn.btn_fill {
+  border-color: #b41429;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  background-image: linear-gradient(
+    to right,
+    rgba(180, 20, 41, 0) 50%,
+    rgba(180, 20, 41, 1) 50%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41429', endColorstr='#b41429',GradientType=1 );
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  position: relative;
+  height: 44px;
+  font: 14px/40px "GothamProBold";
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  border-radius: 22px;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-background-size: 200% 100%;
+  background-size: 200% 100%;
+}
+
+.ie .btn {
+  line-height: 44px;
+  border-width: 0;
+}
+
+.btn:hover {
+  -webkit-transition: background 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66) 0s,
+    color 0.5s ease-in-out 0s;
+  -o-transition: background 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66) 0s,
+    color 0.5s ease-in-out 0s;
+  transition: background 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66) 0s,
+    color 0.5s ease-in-out 0s;
+  color: #b41429;
+}
+
+.btn:not(:hover) {
+  -webkit-transition: background 0.5s ease-in-out 0s, color 0.5s ease-in-out 0s;
+  -o-transition: background 0.5s ease-in-out 0s, color 0.5s ease-in-out 0s;
+  transition: background 0.5s ease-in-out 0s, color 0.5s ease-in-out 0s;
+}
+
+.btn.btn_empty,
+.btn.btn_fill:hover {
+  background-position: top left;
+}
+
+.btn.btn_fill,
+.btn.btn_empty:hover {
+  background-position: top right;
+}
+
+.btn .zmdi {
+  font-size: 17px;
+  margin-left: 8px;
+}
+
+/* ============ ФОРМА */
+.company-bnr-top {
+  padding-top: 40px;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-13.45%, rgba(255, 255, 255, 0)),
+      color-stop(82.94%, #f8e9ec)
+    ),
+    #ffffff;
+  background: -o-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0) -13.45%,
+      #f8e9ec 82.94%
+    ),
+    #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) -13.45%,
+      #f8e9ec 82.94%
+    ),
+    #ffffff;
+}
+.company-bnr-top-body {
+  position: relative;
+  padding-bottom: 30px;
+}
+.company-bnr-top-people-img {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.company-bnr-top-text__title {
+  margin-top: 20px;
+  margin-bottom: 28px;
+  color: #222222;
+  font-family: "GothamProBold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.company-bnr-top-text__desc {
+  text-align: center;
+  max-width: 245px;
+  margin: 0 auto;
+  color: #222222;
+  font-family: "GothamProRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.company-bnr-top-form {
+  background-color: white;
+  max-width: 491px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.company-bnr-top-form__title {
+  text-align: center;
+  color: #b41429;
+  font-family: "GothamProBold", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+.company-bnr-top-form-inputs {
+  margin-top: 25px;
+}
+.company-bnr-top-form-inputs__item {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #444444;
+  font-family: "GothamProRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+}
+.company-bnr-top-form-inputs__input {
+  height: 54px;
+}
+.company-bnr-top-form-inputs__textarea {
+  padding-top: 15px;
+  height: 80px;
+  resize: none;
+}
+.company-bnr-top-form-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.company-bnr-top-form__submit {
+  margin-top: 0;
+  background-color: transparent;
+  cursor: pointer;
+  max-width: 100%;
+  outline: none;
+}
+.company-bnr-top-form__pers-data {
+  margin-left: 10px;
+  max-width: 157px;
+  display: block;
+  color: #b2b0b0;
+  font-family: "GothamProRegular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1199px) {
+  .company-bnr-top-people-img {
+    left: -10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .company-bnr-top-text-wrap {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .company-bnr-top-form {
+    margin: 30px auto 0 auto;
+  }
+  .company-bnr-top-people-img {
+    left: -130px;
+  }
+  .company-bnr-top {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 767px) {
+  .company-bnr-top-people-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .company-bnr-top-form-bot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .company-bnr-top-form__pers-data {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .company-bnr-top-text__title {
+    margin-bottom: 18px;
+    font-size: 27px;
+  }
+}

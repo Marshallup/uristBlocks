@@ -1,0 +1,197 @@
+@media screen and (max-width: 1199px) {
+  .ur-cons--book {
+    .ur-cons__img {
+      width: 630px;
+      right: -110px;
+    }
+  }
+  .similar-sit-item__img {
+    margin-right: 20px;
+  }
+  .pickUs {
+    &__img {
+      left: -140px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .ur-cons--book {
+    .ur-cons__img {
+      right: -170px;
+      width: 530px;
+    }
+  }
+  .similar-sit {
+    &__title {
+      text-align: center;
+    }
+    &__line {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+  }
+  .similar-sit-item {
+    justify-content: center;
+  }
+  .long-proc {
+    &-item {
+      margin-bottom: 30px;
+    }
+  }
+  .pickUs {
+    &__img {
+      display: none;
+    }
+    &-advantages-item-wrap {
+      width: 40%;
+    }
+  }
+  .dogovor {
+    background: #cccbc8;
+    &__title, &__desc {
+      max-width: 530px;
+    }
+    &-list {
+      &__item {
+        max-width: 450px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .similar-sit {
+    &__title {
+      margin-bottom: 15px;
+    }
+    &__subtitle {
+      margin-bottom: 30px;
+      line-height: normal;
+    }
+  }
+  .ur {
+    &--title {
+      font-size: 25px;
+    }
+  }
+  .ur-cons {
+    &__title {
+      max-width: 460px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: normal;
+    }
+    &--book {
+      .ur-cons__img {
+        display: none;
+      }
+    }
+  }
+  .pickUs {
+    &-advantages-item-wrap {
+      width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .similar-sit {
+    padding: 40px 0;
+    &-item {
+      flex-wrap: wrap;
+      &__img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      &-text {
+        text-align: center;
+      }
+    }
+  }
+  .ur-cons {
+    padding-bottom: 50px;
+    overflow: visible;
+    .container {
+      overflow: visible;
+    }
+    &--book {
+      .ur-cons-body {
+        margin-top: 300px;
+      }
+      .ur-cons__img {
+        display: block;
+        top: -200px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 100%;
+      }
+    }
+    &__pers-data {
+      text-align: center;
+    }
+  }
+  .ur {
+    &--subtitle {
+      font-size: 16px;
+    }
+  }
+  .long-proc {
+    padding: 40px 0 20px 0;
+    &-item {
+      padding: 40px 10px 40px 10px;
+      &__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+      }
+      &__point {
+        font-size: 17px;
+        line-height: normal;
+        &:before {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .pickUs {
+    &__title {
+      text-align: center;
+    }
+    &__line {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &-advantages {
+      &-item {
+        text-align: center;
+        &-wrap {
+          width: 100%;
+        }
+        &__desc,
+        &__line {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  .dogovor {
+    // text-align: center;
+    &__title {
+      font-size: 22px;
+      margin-bottom: 17px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .ur-cons--book {
+    .ur-cons-body {
+      margin-top: 170px;
+    }
+    .ur-cons__img {
+      top: -75px;
+      height: 228px;
+    }
+  }
+}

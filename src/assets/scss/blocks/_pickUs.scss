@@ -1,0 +1,45 @@
+.pickUs {
+  padding: 100px 0 70px 0;
+  &__img {
+    position: absolute;
+    top: 0px;
+    left: -90px;
+    img {
+      display: block;
+      max-width: 580px;
+    }
+  }
+  &__title {
+    margin-bottom: 18px;
+    font-size: 29px;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__line {
+    max-width: 210px;
+  }
+  &-advantages {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    &-item {
+      &-wrap {
+        margin-bottom: 30px;
+        width: 50%;
+      }
+      &__img {
+        min-height: 79px;
+      }
+      &__desc {
+        line-height: normal;
+        font-size: 17px;
+        color: rgb(28, 28, 28);
+        max-width: 253px;
+      }
+      &__line {
+        max-width: 111px;
+      }
+    }
+  }
+}

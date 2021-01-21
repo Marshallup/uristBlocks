@@ -1,0 +1,35 @@
+.similar-sit {
+  padding: 90px 0;
+  background-color: #ffffff;
+  &__title {
+    font-size: 36px;
+    max-width: none !important;
+  }
+  &__subtitle {
+    margin-bottom: 60px;
+  }
+  &__row {
+    margin-bottom: -60px;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    // justify-content: space-around;
+    &__img {
+      margin-right: 40px;
+    }
+    &__title {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      color: rgb(28, 28, 28);
+    }
+    &__subtitle {
+      max-width: 271px;
+      line-height: normal;
+      margin: 0;
+      font-size: 16px;
+      color: rgb(28, 28, 28);
+    }
+  }
+}
